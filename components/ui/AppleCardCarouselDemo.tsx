@@ -27,26 +27,31 @@ const data = [
     category: "React Developer",
     title: "Building Apps in React",
     src: ReactCode,
+    content: "",
   },
   {
     category: "Typescript",
     title: "Building Apps suing TypeScript",
     src: tsCode,
+    content: "",
   },
   {
     category: "Web Design",
     title: "Designing Web",
     src: design,
+    content: "",
   },
 
   {
     category: "Front End",
     title: "Front end development",
     src: build,
+    content: "",
   },
   {
     category: "Testing",
     title: "Selenium and Cucumber testing",
     src: selenium,
+    content: "",
   },
 ];
