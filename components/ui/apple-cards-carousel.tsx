@@ -1,4 +1,6 @@
 "use client";
+
+import { StaticImageData } from "next/image";
 import React, {
   useEffect,
   useRef,
@@ -22,7 +24,7 @@ interface CarouselProps {
 }
 
 type Card = {
-  src: string;
+  src: string | StaticImageData;
   title: string;
   category: string;
   content?: React.ReactNode;
