@@ -7,7 +7,7 @@ import { Highlight } from "./ui/HeroHighlight";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 mb-20">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -38,13 +38,7 @@ const Hero = () => {
               Hi, i&apos;m Amanuel A developer based in Las Vegas.
             </Highlight>
           </p>
-
-          {/* <TextRevealCard
-            className="lg:mt-10 md:sm:mt-5 py-8  uppercase md:tracking-wider mb-4 text-center"
-            text="Hi, i'm Amanuel "
-            revealText="building awesome staff"
-          /> */}
-          <a href="#about">
+          <a href="#projects">
             <MagicButton title="Show my work" />
           </a>
         </div>
